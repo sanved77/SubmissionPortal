@@ -1,4 +1,4 @@
-package com.sanved.submissionportal;
+ package com.sanved.submissionportal;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
