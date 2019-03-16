@@ -13,6 +13,11 @@
     <color name="darkgreen">#126012</color>
     <color name="indigo">#058DF2</color>
     <color name="darkindigo">#0362a9</color>
-
+    <color name="red">#CE3A3A</color>
+    <color name="darkred">#a32020</color>
+    <color name="grey">#f7f7f7</color>
+    <color name="yellow">#eeba30</color>
+    <color name="darkgrey">#191919</color>
+    <color name="lightgray">#cecece</color>
 
 </resources>

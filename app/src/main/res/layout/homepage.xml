@@ -53,23 +53,20 @@
 
         </LinearLayout>
 
-        <android.support.v4.widget.SwipeRefreshLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/swiperefresh"
-            android:layout_width="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:layout_height="match_parent">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/list_item" />
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/rv"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scrollbarThumbVertical="@color/black"
-                android:scrollbars="vertical"
-                android:background="@color/white"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/list_item2" />
 
-        </android.support.v4.widget.SwipeRefreshLayout>
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/list_item3" />
 
         <TextView
             android:id="@+id/tvPlaceHolder"
@@ -79,5 +76,7 @@
             android:text="Pull Down to Refresh"
             android:textSize="30sp"
             android:visibility="invisible" />
+
+
 
 </LinearLayout>
