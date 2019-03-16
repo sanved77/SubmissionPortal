@@ -9,4 +9,10 @@
     <color name="darkblue">#046b9a</color>
     <color name="orange">#FF8D00</color>
     <color name="orangedark">#b26200</color>
+    <color name="green">#1EA11E</color>
+    <color name="darkgreen">#126012</color>
+    <color name="indigo">#058DF2</color>
+    <color name="darkindigo">#0362a9</color>
+
+
 </resources>
