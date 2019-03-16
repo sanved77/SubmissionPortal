@@ -39,7 +39,8 @@ import android.widget.EditText;
                 
                 if(suser.equals("root") && spass.equals("root")){
                     // TODO: 3/12/2019 add the intent 
-                    //Intent i = new Intent(this, \)
+                    Intent i = new Intent(MainActivity.this, HomePage.class);
+                    startActivity(i);
                 }
                 
             }

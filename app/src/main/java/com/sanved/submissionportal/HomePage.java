@@ -1,5 +1,6 @@
 package com.sanved.submissionportal;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -34,7 +35,7 @@ public class HomePage extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
         getSupportActionBar().setTitle("Game Development Portal");
-        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.baseline_arrow_back_black_36));
+        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.baseline_arrow_back_white_36));
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,9 +43,19 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        rv = findViewById(R.id.rv);
+        //rv = findViewById(R.id.rv);
         llm = new LinearLayoutManager(this);
-        rv.setLayoutManager(llm);
+//        rv.setLayoutManager(llm);
+
+        submit = findViewById(R.id.bSubmit);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Proj.class);
+                startActivity(i);
+            }
+        });
 
     }
 

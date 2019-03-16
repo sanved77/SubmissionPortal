@@ -27,6 +27,7 @@
             android:background="@drawable/green_btn"
             android:layout_margin="8dp"
             android:textSize="18sp"
+            android:textColor="@color/white"
             android:text="Submit"/>
 
         <LinearLayout
@@ -40,6 +41,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/custom"
                 android:layout_margin="8dp"
+                android:textColor="@color/white"
                 android:text="Vote"/>
 
             <Button
@@ -49,6 +51,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/indigo_btn"
                 android:layout_margin="8dp"
+                android:textColor="@color/white"
                 android:text="Review"/>
 
         </LinearLayout>
